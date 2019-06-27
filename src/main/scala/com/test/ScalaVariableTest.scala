@@ -1,6 +1,9 @@
 package com.test
 
-class ScalaVariableTest {
+/**
+  * 变量
+  */
+object ScalaVariableTest {
 
   //在 Scala 中，使用关键词 "var" 声明变量，使用关键词 "val" 声明常量。
   var fooVar: String = "foo";
@@ -10,7 +13,12 @@ class ScalaVariableTest {
   var ageVar = 10;
   var msgVar = "This is a message";
 
-  def main(args: Array[String]): Unit = {
+  //Scala 支持多个变量的声明：
+  var xVar, yVar = 10;
 
+  val arrVar = (90, "A");
+
+  def main(args: Array[String]): Unit = {
+    println(arrVar);
   }
 }

@@ -2,6 +2,9 @@ package com.test
 
 import java.util.{HashMap => JavaHashMap};
 
+/**
+  * 数据类型
+  */
 object ScalaDataTest {
 
   //基本语法
