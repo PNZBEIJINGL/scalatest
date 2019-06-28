@@ -1,6 +1,12 @@
 package com.test
 
 object ScalaOperatorTest {
+  //方法定义
+  def addInt(a: Int, b: Int): Int = {
+    var sumVar = 0;
+    sumVar = a + b;
+    return sumVar;
+  }
 
   def main(args: Array[String]) {
     println("运算符测试：");
@@ -75,4 +81,6 @@ object ScalaOperatorTest {
     println("c |= a  = " + c );
 
   }
+
+
 }
