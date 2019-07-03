@@ -1,4 +1,4 @@
-package com.test.com.test.collection
+package com.collection
 
 import scala.Array._
 
