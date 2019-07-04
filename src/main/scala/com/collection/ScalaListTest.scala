@@ -25,5 +25,15 @@ object ScalaListTest {
     val tabulateList = List.tabulate(5)(n => n * n);
     println(tabulateList);
 
+    val listA: List[String] = List("It", "is", "a", "sunday!");
+    val listB: List[String] = List("this", "is", "testing!");
+    var result1 = listA ::: listB;
+    println("：：：拼接：" + result1);
+    var result2 = List.concat(listA, listB)
+    println("List.concat拼接：" + result2)
+
+    var reverse = listA.reverse;
+    println("List.reverse :" + reverse);
+
   }
 }
