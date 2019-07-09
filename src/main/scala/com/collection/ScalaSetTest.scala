@@ -21,8 +21,21 @@ object ScalaSetTest {
     //set.++ 拼接集合
     val set2 = Set("This", "is", "a", "test ");
     val set3 = Set("end");
-    var set=set ++ set2 ++ set3;
-    println("++拼接: " + set ++ set2 ++ set3);
+    var set4=set ++ set2 ++ set3
+    println("++拼接: " +set4);
+
+    println("查看交集")
+    val seta=Set(1,2,3,4,5,8)
+    val setb=Set(3,4,5,6,7);
+
+    //使用 .& 和 .intersect 查看两个集合的交集
+    println(seta.&(setb));
+    println(seta.intersect(setb));
+
+    //最大元素和最小元素
+    println("min="+set.min);
+    println("max"+set.max)
+
 
 
   }
