@@ -11,6 +11,10 @@ object ScalaClassTest {
     footplayer.print();
     footplayer.sayhi();
 
+
+    //测试报错
+    //var sc = new ScalaCompanion("test");
+    //sc.printing();
   }
 
 }
